@@ -17,7 +17,7 @@
  * Plugin URI:        https://ieeeulab.org
  * Description:       This plugin is the all-in-one plugin for IEEE ULAB website
  * Version:           1.0.0
- * Author:            Shakil Shareef
+ * Author:            Shakil Shareef / Rakib Ahmed
  * Author URI:        https://se7encoders.com
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
