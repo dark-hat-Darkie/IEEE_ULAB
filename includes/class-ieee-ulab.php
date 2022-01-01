@@ -121,6 +121,7 @@ class Ieee_Ulab {
 		 * side of the site.
 		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-ieee-ulab-public.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/events/EventType.php';
 
 		$this->loader = new Ieee_Ulab_Loader();
 
