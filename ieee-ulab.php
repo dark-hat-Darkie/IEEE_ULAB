@@ -75,8 +75,10 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-ieee-ulab.php';
  */
 function run_ieee_ulab() {
 
-	$plugin = new Ieee_Ulab();
-	$plugin->run();
+	global $ieee;
+	$ieee = new Ieee_Ulab();
+	$ieee->plugin_path = plugin_dir_path( __FILE__ );
+	$ieee->run();
 
 }
 run_ieee_ulab();

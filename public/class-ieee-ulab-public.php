@@ -96,7 +96,9 @@ class Ieee_Ulab_Public {
 		 * class.
 		 */
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/ieee-ulab-public.js', array( 'jquery' ), $this->version, false );
+		global $ieee;
+
+		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/switchMode.js', array( 'jquery' ), $this->version, false );
 
 	}
 
